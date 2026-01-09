@@ -1,0 +1,46 @@
+*{
+    margin: none;
+}
+.body{
+     
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav{
+     width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.navbar li{
+    list-style: none;
+
+}
+.navbar .menu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: #000000;
+    margin: 346px 34px;
+}
+.btn{
+     border: #000000;
+     padding: 12.5px 16px;
+     border:1px solid #000000;
+     background-color:#30B868;
+     color: #FFFFFF;
+     border: none;
+     border-radius: 4px;
+     font-weight: semi-bold;
+}
+
