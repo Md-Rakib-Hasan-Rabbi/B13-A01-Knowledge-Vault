@@ -1,15 +1,15 @@
 *{
     margin: none;
 }
-.body{
-     
+
+.inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
 nav{
-     width: 71%;
-    max-width: 1140px;
+    width: 100%;
+    max-width: 1340px;
     margin: 0 auto;
     padding: 30px 0;
 }
@@ -33,9 +33,10 @@ nav{
     color: #000000;
     margin: 346px 34px;
 }
-.btn{
+/* Shared styles */
+.button .btn{
      border: #000000;
-     padding: 12.5px 16px;
+     padding: 16.5px 16px;
      border:1px solid #000000;
      background-color:#30B868;
      color: #FFFFFF;
@@ -43,4 +44,37 @@ nav{
      border-radius: 4px;
      font-weight: semi-bold;
 }
+.button .btn2{
+    border:1px solid #FFFFFF;
+    padding: 16.5px 16.5px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-weight: semi-bold;
+}
+#hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    background: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center;
+    height: 500px;
+    color: #FFFFFF;
+}
+.hero-content span{
+    color: #30B868;
+}
+
+.badge .dot{
+    border-radius: 1000px;
+    max-width: 229px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+
 
