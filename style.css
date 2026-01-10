@@ -34,7 +34,7 @@ nav{
     margin: 346px 34px;
 }
 /* Shared styles */
-.button .btn{
+.btn{
      border: #000000;
      padding: 16.5px 16px;
      border:1px solid #000000;
@@ -95,6 +95,19 @@ nav{
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     background: rgba(255, 255, 255, 1);
 }
-
-
+.second-brain .main-div{
+    display: flex;
+}
+.second-brain .main-div{
+    margin: 120px;
+    background-color: aqua;
+    max-width: 1360px;
+    gap: 60px;
+}
+.second-brain .main-div .structure li{
+    list-style-type:none;
+}
+.second-brain .main-div .second-brain-image{
+    width: 600px;
+}
 
