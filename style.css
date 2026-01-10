@@ -99,6 +99,13 @@ nav{
     margin: 0px 120px;
     text-align: center;
 }
+#notes .notes-heading p{
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #637382;
+}
 .card-container {
     display: flex;
     max-width: 1160px;
