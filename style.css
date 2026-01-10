@@ -38,6 +38,11 @@ nav{
     margin: 346px 34px;
 }
 /* Shared styles */
+ .button {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
 .btn{
      border: #000000;
      padding: 16.5px 16px;
@@ -56,6 +61,13 @@ nav{
     border-radius: 4px;
     font-weight: semi-bold;
 }
+.button .btn,
+.button .btn2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 #hero{
     width: 100%;
     display: flex;
@@ -78,6 +90,7 @@ nav{
     max-width: 229px;
     margin: 0 auto;
     background-color: #FFFFFF;
+    padding: 5px;
 }
 #notes .notes-heading{
     max-width: 1360px;
@@ -99,6 +112,27 @@ nav{
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     background: rgba(255, 255, 255, 1);
 }
+.card-container .card img {
+    width: 35px;
+    height: 35px;
+    padding-top: 69.5px;
+    background-color: #FF4444;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 0 auto ;
+    display: block;
+}
+.card-container .card p {
+    padding: 16px;
+    color: #637382;
+    font-size: 14px;
+    text-align: center;
+}
+.card-container .card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
 .second-brain .main-div{
     display: flex;
 }
@@ -108,9 +142,20 @@ nav{
     max-width: 1360px;
     gap: 60px;
 }
-.second-brain .main-div .structure li{
-    list-style-type:none;
+ .second-brain .structure ul {
+    list-style: none;
+    padding: 0;
 }
+
+.second-brain .structure li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #001931;
+}
+
 .second-brain .main-div .second-brain-image{
     width: 600px;
 }
@@ -126,6 +171,7 @@ nav{
     color: #637382;
     font-size: 16px;
 }
+
 footer{
     max-width: 1360px;
     background-color: rgba(0, 25, 49, 1);
@@ -134,7 +180,10 @@ footer{
 footer .main-footer{
     display:flex;
     justify-content: space-between;
+    /* background-color: aqua; */
     padding: 10px;
+    margin: 120px 100px;
+    padding-top: 120px;
 }
 footer .footer-links li{
     list-style: none;
@@ -152,11 +201,20 @@ footer .footer-links ul{
     margin: 0;
     padding: 0;
 }
+footer .footer-links p{
+   color: rgba(255, 255, 255, 1);
+}
 footer .footer-copyright{
     color: rgba(250, 250, 250, 1);
     font-size: 16px;
     text-align: center;
     font-weight: 400;
     line-height: 24px;
+    padding-bottom: 30px;
+}
+footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 40px 100px;
+    
 }
 
