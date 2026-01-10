@@ -1,6 +1,10 @@
 *{
     margin: none;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .inter{
   font-family: "Inter", sans-serif;
@@ -100,7 +104,7 @@ nav{
 }
 .second-brain .main-div{
     margin: 120px;
-    background-color: aqua;
+    /* background-color: aqua; */
     max-width: 1360px;
     gap: 60px;
 }
@@ -121,5 +125,38 @@ nav{
 .early-access .early-access-container span{
     color: #637382;
     font-size: 16px;
+}
+footer{
+    max-width: 1360px;
+    background-color: rgba(0, 25, 49, 1);
+    margin: 0 auto;
+}
+footer .main-footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer .footer-links li{
+    list-style: none;
+    
+}
+footer .footer-links img {
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    
+}
+footer .footer-links ul{
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+footer .footer-copyright{
+    color: rgba(250, 250, 250, 1);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
 }
 
