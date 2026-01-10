@@ -110,4 +110,16 @@ nav{
 .second-brain .main-div .second-brain-image{
     width: 600px;
 }
+.early-access .early-access-container{
+    max-width: 1160px;
+    margin: 0 auto;
+    text-align: center;
+    margin:0px 120px 120x 120px;
+    /* background-color: black; */
+    
+}
+.early-access .early-access-container span{
+    color: #637382;
+    font-size: 16px;
+}
 
